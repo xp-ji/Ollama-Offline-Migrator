@@ -4,11 +4,13 @@
 用于在无网络环境部署Ollama框架及预下载模型，包含安装脚本和模型迁移工具。
 
 ## 文件说明
-├── install_ollama.sh       # 离线安装脚本
-├── ollama_export.py        # 模型导出工具
-├── ollama_restore.py       # 模型导入工具
-├── ollama-linux-*.tgz      # Ollama主程序包（需自行补充）
-└── *.zip                   # 预下载模型文件（示例：deepseek-r1-1.5b.zip）
+```
+├── install_ollama.sh # 离线安装脚本 
+├── ollama_export.py # 模型导出工具 
+├── ollama_restore.py # 模型导入工具 
+├── ollama-linux-*.tgz # Ollama主程序包（需自行下载） 
+└── *.zip # 预下载模型文件（示例：deepseek-r1-1.5b.zip）
+```
 
 ## 安装步骤
 
